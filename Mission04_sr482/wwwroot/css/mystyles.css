@@ -1,0 +1,12 @@
+﻿body {
+
+}
+/*Basic style changes (at least one change)*/
+.myfirstchange {
+    background-color: #DDD0C8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.mysecondchange {
+    background-color: #323232;
+    color: white;
+}
