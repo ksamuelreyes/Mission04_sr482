@@ -13,5 +13,10 @@ namespace Mission04_sr482.Controllers
 
             return View();
         }
+        public IActionResult Calculator()
+        {
+
+            return View();
+        }
     }
 }
