@@ -55,6 +55,6 @@ $("#calculateBtn").click(function () {
     }
 
     /*JQuery outputs the final numeric grade and letter grade*/
-    $("#output").text(finalGrade + "%  " + letterGrade)
+    alert(finalGrade + "%  " + letterGrade)
 
 })
