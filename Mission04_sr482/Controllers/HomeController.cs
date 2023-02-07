@@ -14,14 +14,14 @@ namespace Mission04_sr482.Controllers
 
             return View();
         }
-       
+       //Getter
         [HttpGet]
         public IActionResult Calculator()
         {
 
             return View();
         }
-
+        //Setter
         [HttpPost]
         public IActionResult Calculator(CalculatorModel model)
         {

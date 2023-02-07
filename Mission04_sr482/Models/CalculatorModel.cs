@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Mission04_sr482.Models
 {
+    //Create Model
     public class CalculatorModel
     {
+        //Set a range to return an error for input
         [Range(0,100, ErrorMessage = "Assignments must be between 0 and 100")]
         public float Assign { get; set; }
 
