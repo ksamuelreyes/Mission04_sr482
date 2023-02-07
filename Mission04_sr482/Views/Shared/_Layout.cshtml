@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <!-- Webpage title -->
-    <title>@ViewData["Title"]</title>
+    <title></title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="img/frogFavicon.png">
@@ -18,13 +18,23 @@
         <div class="container px-4">
             <a class="navbar-brand" asp-controller="Home" asp-action="Index">First C# Site</a>
             <a class="navbar-brand" asp-controller="Home" asp-action="Calculator">Calculator</a>
-            @*<a class="navbar-brand">Calculator</a>*@
+
         </div>
         <br />
     </nav>
+    <header class="myfirstchange bg-gradient text-white">
+        <div class="container px-4 text-center">
+            <br />
+            <h1 class="fw-bolder">@ViewData["Title"]</h1>
+            <p class="lead">Assignment 5</p>
+            <br />
+        </div>
+    </header>
     <div>
         @RenderBody()
     </div>
+
+
 
     <!-- JavaScript -->
     <script src="lib/jquery/jquery-3.6.3.min.js"></script>
